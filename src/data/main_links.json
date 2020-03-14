@@ -38,6 +38,11 @@
     "title" : "twitter #Covid_19PH",
     "category": "twitter",
     "url": "https://twitter.com/search?q=%23Covid_19PH&src=trend_click"
+  },
+  {
+    "title":"COVID Issuances",
+    "category": "gdrive folder",
+    "url": "https://drive.google.com/drive/folders/1MoV5nmgXRmVApF0dlHH-JNUZOsGKHO1K?fbclid=IwAR2vBNkBPkRw3kIKYIhitq57fH-MV819ITstvqhVA_6XBsZpIKo6mx9M1DQ"
   }
 ]
 

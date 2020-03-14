@@ -7,7 +7,7 @@ import { CssBaseline } from '@material-ui/core';
 
 import * as MUI from '@material-ui/core'
 
-const mainLinks = require('./data/main_links.json')
+import { loadLinks } from './actions/MainActions'
 
 const styles = theme => ({
 });
@@ -16,6 +16,15 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.classes = props.classes
+
+    this.state = {
+      links: []
+    }
+  }
+
+  async componentDidMount() {
+    await this.props.loadLinks()
+    this.setState({ links: this.props.main.links })
   }
   render() {
     return <React.Fragment>
@@ -30,7 +39,7 @@ class App extends Component {
               </MUI.TableRow>
             </MUI.TableHead>
             <MUI.TableBody>
-              {mainLinks.map(row => (
+              {this.state.links.map(row => (
                 <MUI.TableRow key={row.title}>
                   <MUI.TableCell><a href={row.url} target="_blank" rel="noopener noreferrer">{row.title}</a></MUI.TableCell>
                   <MUI.TableCell>{row.category}</MUI.TableCell>
@@ -46,12 +55,13 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
-    sample: state.sample
+    main: state.main
   }
 }
 
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({
+    loadLinks,
   }, dispatch);
 }
 

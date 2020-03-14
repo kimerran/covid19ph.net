@@ -1,0 +1,1 @@
+docker build kimerran/covid19ph.net
