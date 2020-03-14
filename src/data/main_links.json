@@ -1,0 +1,44 @@
+[
+  {
+    "title": "DOH Case Tracker",
+    "category": "info",
+    "url": "https://www.doh.gov.ph/2019-nCoV"
+  },
+  {
+    "title": "COVID-19 PH Data and Case Tracker",
+    "category": "info",
+    "url": "https://covid19ph.com/"
+  },
+  {
+    "title": "DOH Viber Updates",
+    "category": "viber",
+    "url": "http://bit.ly/DOHPhCOVID-19"
+  },
+  {
+    "title": "COVID-19 Telegram Updates",
+    "category": "telegram",
+    "url": "https://t.me/phcoronavirus"
+  },  
+  {
+    "title": "Reddit (r/Philippines) COVID Megathread",
+    "category": "subreddit",
+    "url": "https://www.reddit.com/r/Philippines/comments/ffsskv/megathread_covid19_philippines/"
+  },
+  {
+    "title": "Reddit (r/Coronavirus_PH) Subreddit for COVID-19 PH",
+    "category": "subreddit",
+    "url": "https://www.reddit.com/r/Coronavirus_PH/"
+  },
+  {
+    "title": "COVID-19 PH Data Raw Data",
+    "category": "spreadsheet",
+    "url": "https://docs.google.com/spreadsheets/d/1wdxIwD0b58znX4UrH6JJh_0IhnZP0YWn23Uqs7lHB6Q/edit#gid=0"
+  },
+  {
+    "title" : "twitter #Covid_19PH",
+    "category": "twitter",
+    "url": "https://twitter.com/search?q=%23Covid_19PH&src=trend_click"
+  }
+]
+
+
