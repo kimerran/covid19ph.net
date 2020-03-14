@@ -14,7 +14,11 @@
     "category": "tracker",
     "url": "https://covid19ph.com/"
   },
-
+  {
+    "title": "COVID-19 in the PH",
+    "category": "tracker",
+    "url": "https://public.tableau.com/profile/idyjanale3648#!/vizhome/CovidTracker/Dashboard1?publish=yes"
+  },
   {
     "title": "COVID-19 PH Data Raw Data",
     "category": "data",
