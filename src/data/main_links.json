@@ -6,6 +6,12 @@
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/doh_site.png"
   },
   {
+    "title": "DOH Dashboard",
+    "category": "tracker",
+    "url": "https://ncovtracker.doh.gov.ph/",
+    "image": null
+  },
+  {
     "title": "COVID-19 Cases and Deaths in the Philippines Dashboard",
     "category": "tracker",
     "url": "https://public.tableau.com/profile/jason.haw#!/vizhome/COVID-19CasesandDeathsinthePhilippines/Dashboard?publish=yes",
@@ -13,7 +19,7 @@
   },
   {
     "title": "PH Dashboard",
-    "category": "",
+    "category": "tracker",
     "url": "https://public.tableau.com/profile/sandra.tabinas#!/vizhome/COVID-19PHDashboard/Dashboard",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/tableau_2.png"
   },
@@ -39,7 +45,7 @@
   {
     "title":"COVID Issuances",
     "category": "data",
-    "url": "https://drive.google.com/drive/folders/1MoV5nmgXRmVApF0dlHH-JNUZOsGKHO1K?fbclid=IwAR2vBNkBPkRw3kIKYIhitq57fH-MV819ITstvqhVA_6XBsZpIKo6mx9M1DQ",
+    "url": "https://drive.google.com/drive/folders/1MoV5nmgXRmVApF0dlHH-JNUZOsGKHO1K",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/issuance.png"
   },
 
@@ -93,8 +99,6 @@
     "url": "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_Philippines",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/wiki.png"
   },
-
-
   {
     "title": "API for Developers",
     "category": "developer",
