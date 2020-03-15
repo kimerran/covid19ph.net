@@ -45,7 +45,7 @@ class App extends Component {
             <MUI.TableHead>
               <MUI.TableRow>
                 <MUI.TableCell><strong>Title</strong></MUI.TableCell>
-                <MUI.TableCell><strong>Category</strong></MUI.TableCell>
+                <MUI.TableCell><strong>Preview</strong></MUI.TableCell>
               </MUI.TableRow>
             </MUI.TableHead>
             <MUI.TableBody>
