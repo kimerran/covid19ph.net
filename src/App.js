@@ -12,6 +12,7 @@ import { loadLinks } from './actions/MainActions'
 const staticLinks = require('./data/main_links.json')
 
 const styles = theme => ({
+
 });
 
 class App extends Component {
@@ -52,7 +53,7 @@ class App extends Component {
                 <MUI.TableRow key={row.title}>
                   <MUI.TableCell><a href={row.url} target="_blank" rel="noopener noreferrer">{row.title}</a></MUI.TableCell>
                   <MUI.TableCell>
-                    <img height="50px" src={row.image} />
+                    <img height="69px" src={row.image} />
                   </MUI.TableCell>
                 </MUI.TableRow>
               ))}

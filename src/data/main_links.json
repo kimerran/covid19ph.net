@@ -2,15 +2,17 @@
   {
     "title": "DOH Case Tracker",
     "category": "tracker",
-    "url": "https://www.doh.gov.ph/2019-nCoV"
+    "url": "https://www.doh.gov.ph/2019-nCoV",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/doh_site.png"
   },
   {
     "title": "COVID-19 Cases and Deaths in the Philippines Dashboard",
     "category": "tracker",
-    "url": "https://public.tableau.com/profile/jason.haw#!/vizhome/COVID-19CasesandDeathsinthePhilippines/Dashboard?publish=yes"
+    "url": "https://public.tableau.com/profile/jason.haw#!/vizhome/COVID-19CasesandDeathsinthePhilippines/Dashboard?publish=yes",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/tableau_1.png"
   },
   {
-    "title": "",
+    "title": "PH Dashboard",
     "category": "",
     "url": "https://public.tableau.com/profile/sandra.tabinas#!/vizhome/COVID-19PHDashboard/Dashboard",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/tableau_2.png"
@@ -18,73 +20,86 @@
   {
     "title": "COVID-19 PH Data and Case Tracker",
     "category": "tracker",
-    "url": "https://covid19ph.com/"
+    "url": "https://covid19ph.com/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/site_1.png"
   },
   {
     "title": "PH Tracker (Robert Soriano)",
     "category": "tracker",
-    "url": "https://the2019ncov.com/"
+    "url": "https://the2019ncov.com/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/2019ncov.png"
   },
 
   {
     "title": "COVID-19 PH Data Raw Data",
     "category": "data",
-    "url": "https://docs.google.com/spreadsheets/d/1wdxIwD0b58znX4UrH6JJh_0IhnZP0YWn23Uqs7lHB6Q/edit#gid=0"
+    "url": "https://docs.google.com/spreadsheets/d/1wdxIwD0b58znX4UrH6JJh_0IhnZP0YWn23Uqs7lHB6Q/edit#gid=0",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/data_1.png"
   },
   {
     "title":"COVID Issuances",
     "category": "data",
-    "url": "https://drive.google.com/drive/folders/1MoV5nmgXRmVApF0dlHH-JNUZOsGKHO1K?fbclid=IwAR2vBNkBPkRw3kIKYIhitq57fH-MV819ITstvqhVA_6XBsZpIKo6mx9M1DQ"
+    "url": "https://drive.google.com/drive/folders/1MoV5nmgXRmVApF0dlHH-JNUZOsGKHO1K?fbclid=IwAR2vBNkBPkRw3kIKYIhitq57fH-MV819ITstvqhVA_6XBsZpIKo6mx9M1DQ",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/issuance.png"
   },
 
   {
     "title": "DOH Viber Updates",
     "category": "updates_feed",
-    "url": "http://bit.ly/DOHPhCOVID-19"
+    "url": "http://bit.ly/DOHPhCOVID-19",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/viber_alerts.png"
   },
   {
     "title": "COVID-19 Telegram Updates",
     "category": "updates_feed",
-    "url": "https://t.me/phcoronavirus"
+    "url": "https://t.me/phcoronavirus",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/telegram_alerts.png"
   },
 
   {
     "title": "Reddit (r/Philippines) COVID Megathread",
     "category": "updates_feed",
-    "url": "https://www.reddit.com/r/Philippines/comments/ffsskv/megathread_covid19_philippines/"
+    "url": "https://www.reddit.com/r/Philippines/comments/ffsskv/megathread_covid19_philippines/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/reddit_rph.png"
   },
   {
     "title": "Reddit (r/Coronavirus_PH) Subreddit for COVID-19 PH",
     "category": "updates_feed",
-    "url": "https://www.reddit.com/r/Coronavirus_PH/"
+    "url": "https://www.reddit.com/r/Coronavirus_PH/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/reddit_coronavirusph.png"
   },
   {
     "title" : "twitter #Covid_19PH",
     "category": "updates_feed",
-    "url": "https://twitter.com/search?q=%23Covid_19PH&src=trend_click"
+    "url": "https://twitter.com/search?q=%23Covid_19PH&src=trend_click",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/twitter.png"
   },
 
   {
     "title":"Fundraising Campaign for Health Workers Fighting COVID-19",
     "category": "others",
-    "url": "https://www.ticket2me.net/e/5678?"
+    "url": "https://www.ticket2me.net/e/5678?",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/fundraising.png"
   },
   {
     "title": "Online Groceries",
     "category": "others",
-    "url": "https://gist.githubusercontent.com/kimerran/589f11e0bac96a97312d11804e939221/raw/a55150cc8f5dda8eb95e15ae69bd43f65072a8e6/ONLINE%2520GROCERIES.md"
+    "url": "https://gist.githubusercontent.com/kimerran/589f11e0bac96a97312d11804e939221/raw/a55150cc8f5dda8eb95e15ae69bd43f65072a8e6/ONLINE%2520GROCERIES.md",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/online_grocery.png"
   },
   {
     "title": "Wiki - 2020 coronavirus pandemic in the Philippines",
     "category": "wiki",
-    "url": "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_Philippines"
+    "url": "https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_Philippines",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/wiki.png"
   },
 
 
   {
     "title": "API for Developers",
     "category": "developer",
-    "url": "https://medium.com/@edmund5/wuhan-coronavirus-2019-ncov-outbreak-api-for-developers-3523fb2e2a2e"
+    "url": "https://medium.com/@edmund5/wuhan-coronavirus-2019-ncov-outbreak-api-for-developers-3523fb2e2a2e",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/developer_api.png"
   }
 ]
 
