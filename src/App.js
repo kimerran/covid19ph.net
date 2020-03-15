@@ -9,6 +9,8 @@ import * as MUI from '@material-ui/core'
 
 import { loadLinks } from './actions/MainActions'
 
+const staticLinks = require('./data/main_links.json')
+
 const styles = theme => ({
 });
 
@@ -24,13 +26,20 @@ class App extends Component {
 
   async componentDidMount() {
     await this.props.loadLinks()
-    this.setState({ links: this.props.main.links })
+    console.log(window.location.hostname)
+
+    if (window.location.hostname === 'localhost') {
+      this.setState({ links: staticLinks })
+    } else {
+      this.setState({ links: this.props.main.links })
+    }
   }
   render() {
     return <React.Fragment>
       <CssBaseline />
       <MUI.Container>
-      <MUI.TableContainer component={MUI.Paper}>
+        <h1>COVID-19 PH Links</h1>
+        <MUI.TableContainer component={MUI.Paper}>
           <MUI.Table className={this.classes.table} size="small" aria-label="simple table">
             <MUI.TableHead>
               <MUI.TableRow>
@@ -42,13 +51,15 @@ class App extends Component {
               {this.state.links.map(row => (
                 <MUI.TableRow key={row.title}>
                   <MUI.TableCell><a href={row.url} target="_blank" rel="noopener noreferrer">{row.title}</a></MUI.TableCell>
-                  <MUI.TableCell>{row.category}</MUI.TableCell>
+                  <MUI.TableCell>
+                    <img height="50px" src={row.image} />
+                  </MUI.TableCell>
                 </MUI.TableRow>
               ))}
             </MUI.TableBody>
           </MUI.Table>
         </MUI.TableContainer>
-    </MUI.Container>
+      </MUI.Container>
     </React.Fragment>
   }
 }
