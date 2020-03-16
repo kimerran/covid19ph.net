@@ -93,7 +93,11 @@ const styles = theme => ({
 class App extends Component {
   state = {
     links: [],
+<<<<<<< HEAD
     query: [],
+=======
+    query: '',
+>>>>>>> 4a326f40360a59b89d694408a4f437ca8cba2ebd
   }
 
   timeout = null
@@ -118,9 +122,13 @@ class App extends Component {
     }
     this.timeout = window.setTimeout(() => {
       this.setState({
+<<<<<<< HEAD
         query: value
           .split(' ')
           .map(s => s.trim().toLowerCase()),
+=======
+        query: value.trim().toLowerCase(),
+>>>>>>> 4a326f40360a59b89d694408a4f437ca8cba2ebd
       })
     }, 500)
   }
@@ -138,6 +146,7 @@ class App extends Component {
           >
             COVID-19 PH Links
           </MUI.Typography>
+          <div class="sharethis-inline-share-buttons"></div>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />

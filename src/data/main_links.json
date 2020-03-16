@@ -1,52 +1,21 @@
 [
   {
+    "title": "DOH COVID-19 Dashboard",
+    "category": "tracker",
+    "url": "https://ncovtracker.doh.gov.ph/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/doh_ncov_tracker.png"
+  },
+  {
+    "title":"Fundraising Campaign for Health Workers Fighting COVID-19",
+    "category": "others",
+    "url": "https://www.ticket2me.net/e/5678?",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/fundraising.png"
+  },
+  {
     "title": "DOH Case Tracker",
     "category": "tracker",
     "url": "https://www.doh.gov.ph/2019-nCoV",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/doh_site.png"
-  },
-  {
-    "title": "DOH Dashboard",
-    "category": "tracker",
-    "url": "https://ncovtracker.doh.gov.ph/",
-    "image": null
-  },
-  {
-    "title": "COVID-19 Cases and Deaths in the Philippines Dashboard",
-    "category": "tracker",
-    "url": "https://public.tableau.com/profile/jason.haw#!/vizhome/COVID-19CasesandDeathsinthePhilippines/Dashboard?publish=yes",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/tableau_1.png"
-  },
-  {
-    "title": "PH Dashboard",
-    "category": "tracker",
-    "url": "https://public.tableau.com/profile/sandra.tabinas#!/vizhome/COVID-19PHDashboard/Dashboard",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/tableau_2.png"
-  },
-  {
-    "title": "COVID-19 PH Data and Case Tracker",
-    "category": "tracker",
-    "url": "https://covid19ph.com/",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/site_1.png"
-  },
-  {
-    "title": "PH Tracker (Robert Soriano)",
-    "category": "tracker",
-    "url": "https://the2019ncov.com/",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/2019ncov.png"
-  },
-
-  {
-    "title": "COVID-19 PH Data Raw Data",
-    "category": "data",
-    "url": "https://docs.google.com/spreadsheets/d/1wdxIwD0b58znX4UrH6JJh_0IhnZP0YWn23Uqs7lHB6Q/edit#gid=0",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/data_1.png"
-  },
-  {
-    "title":"COVID Issuances",
-    "category": "data",
-    "url": "https://drive.google.com/drive/folders/1MoV5nmgXRmVApF0dlHH-JNUZOsGKHO1K",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/issuance.png"
   },
 
   {
@@ -61,12 +30,19 @@
     "url": "https://t.me/phcoronavirus",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/telegram_alerts.png"
   },
+  {
+    "title":"COVID Issuances",
+    "category": "data",
+    "url": "https://drive.google.com/drive/folders/1MoV5nmgXRmVApF0dlHH-JNUZOsGKHO1K",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/issuance.png"
+  },
+
 
   {
-    "title": "Reddit (r/Philippines) COVID Megathread",
+    "title" : "twitter #Covid_19PH",
     "category": "updates_feed",
-    "url": "https://www.reddit.com/r/Philippines/comments/ffsskv/megathread_covid19_philippines/",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/reddit_rph.png"
+    "url": "https://twitter.com/search?q=%23Covid_19PH&src=trend_click",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/twitter.png"
   },
   {
     "title": "Reddit (r/Coronavirus_PH) Subreddit for COVID-19 PH",
@@ -75,18 +51,48 @@
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/reddit_coronavirusph.png"
   },
   {
-    "title" : "twitter #Covid_19PH",
+    "title": "Reddit (r/Philippines) COVID Megathread",
     "category": "updates_feed",
-    "url": "https://twitter.com/search?q=%23Covid_19PH&src=trend_click",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/twitter.png"
+    "url": "https://www.reddit.com/r/Philippines/comments/ffsskv/megathread_covid19_philippines/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/reddit_rph.png"
   },
 
+
   {
-    "title":"Fundraising Campaign for Health Workers Fighting COVID-19",
-    "category": "others",
-    "url": "https://www.ticket2me.net/e/5678?",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/fundraising.png"
+    "title": "COVID-19 PH Data and Case Tracker",
+    "category": "tracker",
+    "url": "https://covid19ph.com/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/site_1.png"
   },
+  {
+    "title": "PH Dashboard",
+    "category": "tracker",
+    "url": "https://public.tableau.com/profile/sandra.tabinas#!/vizhome/COVID-19PHDashboard/Dashboard",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/tableau_2.png"
+  },
+  {
+    "title": "PH Tracker (Robert Soriano)",
+    "category": "tracker",
+    "url": "https://the2019ncov.com/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/2019ncov.png"
+  },
+  {
+    "title": "COVID-19 Cases and Deaths in the Philippines Dashboard",
+    "category": "tracker",
+    "url": "https://public.tableau.com/profile/jason.haw#!/vizhome/COVID-19CasesandDeathsinthePhilippines/Dashboard?publish=yes",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/tableau_1.png"
+  },
+  {
+    "title": "COVID-19 PH Data Raw Data",
+    "category": "data",
+    "url": "https://docs.google.com/spreadsheets/d/1wdxIwD0b58znX4UrH6JJh_0IhnZP0YWn23Uqs7lHB6Q/edit#gid=0",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/data_1.png"
+  },
+
+
+
+
+
   {
     "title": "Online Groceries",
     "category": "others",
