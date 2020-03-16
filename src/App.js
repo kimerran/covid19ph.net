@@ -15,6 +15,18 @@ const staticLinks = require('./data/main_links.json')
 const styles = theme => ({
   offset: {
     marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(2),
+  },
+  card: {
+    opacity: 0,
+    transform: 'translateX(-1rem)',
+    animationDelay: 'calc((var(--row-xs) + var(--column-xs)) * var(--duration) / 4)',
+    [theme.breakpoints.up('md')]: {
+      animationDelay: 'calc((var(--row-md) + var(--column-md)) * var(--duration) / 4)',
+    },
+    [theme.breakpoints.up('lg')]: {
+      animationDelay: 'calc((var(--row-lg) + var(--column-lg)) * var(--duration) / 4)',
+    },
   },
   title: {
     flexGrow: 1,
@@ -36,6 +48,9 @@ const styles = theme => ({
       marginLeft: theme.spacing(1),
       width: 'auto',
     },
+  },
+  linkImage: {
+    backgroundColor: '#eee',
   },
   linkTitle: {
     height: `${8 / 3}em`,
@@ -76,31 +91,36 @@ const styles = theme => ({
 });
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.classes = props.classes
-
-    this.state = {
-      links: [],
-      query: '',
-    }
+  state = {
+    links: [],
+    query: '',
   }
 
+  timeout = null
+
   async componentDidMount() {
-    await this.props.loadLinks()
-    console.log(window.location.hostname)
+    const { loadLinks, main, } = this.props
+
+    await loadLinks()
 
     if (window.location.hostname === 'localhost') {
-      this.setState({ links: staticLinks })
+      this.setState({ links: staticLinks, })
     } else {
-      this.setState({ links: this.props.main.links })
+      this.setState({ links: main.links, })
     }
   }
 
   handleChange = e => {
-    this.setState({
-      query: e.target.value.trim(),
-    })
+    const { value, } = e.target
+    if (this.timeout !== null) {
+      window.clearTimeout(this.timeout)
+      this.timeout = null
+    }
+    this.timeout = window.setTimeout(() => {
+      this.setState({
+        query: value.trim().toLowerCase(),
+      })
+    }, 500)
   }
 
   render() {
@@ -138,22 +158,40 @@ class App extends Component {
           <MUI.Grid
             container
             spacing={3}
+            style={{
+              '--duration': '500ms',
+            }}
           >
             {
               links
-                .filter(link => (
-                  link.url.includes(query)
-                  || link.title.includes(query)
+                .filter(row => (
+                  row.url.toLowerCase().includes(query)
+                  || row.title.toLowerCase().includes(query)
                 ))
-                .map(row => (
+                .map((row, i) => (
                   <MUI.Grid
                     item
                     xs={12}
                     md={6}
                     lg={4}
-                    key={row.url}
+                    key={row.url + query}
+                    style={{
+                      '--row-xs': i,
+                      '--row-md': Math.floor(i / 2),
+                      '--row-lg': Math.floor(i / 3),
+                      '--column-xs': 0,
+                      '--column-md': i % 2,
+                      '--column-lg': i % 3,
+                    }}
                   >
-                    <MUI.Card>
+                    <MUI.Card
+                      className={classes.card}
+                      style={{
+                        animationName: 'fade',
+                        animationDuration: 'var(--duration)',
+                        animationFillMode: 'forwards',
+                      }}
+                    >
                       <MUI.CardActionArea
                         component="a"
                         href={row.url}
@@ -166,6 +204,7 @@ class App extends Component {
                           image={row.image}
                           alt={row.title}
                           title={row.title}
+                          className={classes.linkImage}
                         />
                         <MUI.CardContent>
                           <MUI.Typography
