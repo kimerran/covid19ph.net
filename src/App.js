@@ -116,6 +116,7 @@ class App extends Component {
           >
             COVID-19 PH Links
           </MUI.Typography>
+          <div class="sharethis-inline-share-buttons"></div>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
