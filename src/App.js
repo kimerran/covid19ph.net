@@ -93,7 +93,7 @@ const styles = theme => ({
 class App extends Component {
   state = {
     links: [],
-    query: '',
+    query: [],
   }
 
   timeout = null
@@ -118,7 +118,9 @@ class App extends Component {
     }
     this.timeout = window.setTimeout(() => {
       this.setState({
-        query: value.trim().toLowerCase(),
+        query: value
+          .split(' ')
+          .map(s => s.trim().toLowerCase()),
       })
     }, 500)
   }
@@ -164,8 +166,14 @@ class App extends Component {
             {
               links
                 .filter(row => (
-                  row.url.toLowerCase().includes(query)
-                  || row.title.toLowerCase().includes(query)
+                  query
+                    .reduce(
+                      (search, q) => (
+                        search || row.title.toLowerCase().includes(q)
+                      ),
+                      false
+                    )
+                  || row.url.toLowerCase().includes(query.join(' '))
                 ))
                 .map((row, i) => (
                   <MUI.Grid
