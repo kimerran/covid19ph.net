@@ -36,8 +36,6 @@
     "url": "https://drive.google.com/drive/folders/1MoV5nmgXRmVApF0dlHH-JNUZOsGKHO1K",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/issuance.png"
   },
-
-
   {
     "title" : "twitter #Covid_19PH",
     "category": "updates_feed",
@@ -56,8 +54,6 @@
     "url": "https://www.reddit.com/r/Philippines/comments/ffsskv/megathread_covid19_philippines/",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/reddit_rph.png"
   },
-
-
   {
     "title": "COVID-19 PH Data and Case Tracker",
     "category": "tracker",
@@ -88,11 +84,6 @@
     "url": "https://docs.google.com/spreadsheets/d/1wdxIwD0b58znX4UrH6JJh_0IhnZP0YWn23Uqs7lHB6Q/edit#gid=0",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/data_1.png"
   },
-
-
-
-
-
   {
     "title": "Online Groceries",
     "category": "others",
@@ -116,6 +107,12 @@
     "category": "developer",
     "url": "https://35.185.190.69/?fbclid=IwAR0a7TxwutzqiB7AxtxEsKFycIEkRnLgsmgTVbrwKycRPbH5Bba1hMmWpeE",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/checkpoints-close.jpg"
+  },
+  {
+    "title": "Covid Self Assessment",
+    "category": "developer",
+    "url": "https://fightcovid.app",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/covid-ban.png"
   }
 ]
 
