@@ -1,5 +1,23 @@
 [
   {
+    "title":"Let's Help FRONTLINERS (COVID19 PH)",
+    "category": "donation",
+    "url": "https://www.facebook.com/groups/246781543171962",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/frontliners_help.png"
+  },
+  {
+    "title": "Call for Donations List (Spreadsheet)",
+    "category": "donation",
+    "url": "https://docs.google.com/spreadsheets/d/1V039YUo0IwcfQSwbjxUa2A_7bW5hxfOJIEkgaKvB91M/edit#gid=0",
+    "image" : "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/frontliners_help.png"
+  },
+  {
+    "title": "Metro Manila Checkpoints",
+    "category": "developer",
+    "url": "https://www.safetravel.ph/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/checkpoints-close.jpg"
+  },
+  {
     "title": "DOH COVID-19 Dashboard",
     "category": "tracker",
     "url": "https://ncovtracker.doh.gov.ph/",
@@ -53,7 +71,7 @@
   {
     "title": "Reddit (r/Philippines) COVID Megathread",
     "category": "updates_feed",
-    "url": "https://www.reddit.com/r/Philippines/comments/ffsskv/megathread_covid19_philippines/",
+    "url": "https://www.reddit.com/r/Philippines/comments/fjlbz1/megathread_covid19_philippines/",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/reddit_rph.png"
   },
 
@@ -110,12 +128,6 @@
     "category": "developer",
     "url": "https://medium.com/@edmund5/wuhan-coronavirus-2019-ncov-outbreak-api-for-developers-3523fb2e2a2e",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/developer_api.png"
-  },
-  {
-    "title": "Metro Manila Checkpoints",
-    "category": "developer",
-    "url": "https://35.185.190.69/?fbclid=IwAR0a7TxwutzqiB7AxtxEsKFycIEkRnLgsmgTVbrwKycRPbH5Bba1hMmWpeE",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/checkpoints-close.jpg"
   }
 ]
 
