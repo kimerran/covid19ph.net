@@ -1,5 +1,23 @@
 [
   {
+    "title": "COVID PH Hotlines",
+    "category": "hotline",
+    "url": "https://sites.google.com/view/covid-19-info-ph/hotlines",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/covid_hotlines.png"
+  },
+  {
+    "title": "DOH COVID-19 Dashboard",
+    "category": "tracker",
+    "url": "https://ncovtracker.doh.gov.ph/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/doh_ncov_tracker.png"
+  },
+  {
+    "title": "COVID-19 PH Data and Case Tracker",
+    "category": "tracker",
+    "url": "https://covid19ph.com/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/site_1.png"
+  },
+  {
     "title":"Let's Help FRONTLINERS (COVID19 PH)",
     "category": "donation",
     "url": "https://www.facebook.com/groups/246781543171962",
@@ -12,23 +30,19 @@
     "image" : "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/3d_print_for_cause.jpg"
   },
   {
-    "title": "Metro Manila Checkpoints",
-    "category": "developer",
-    "url": "https://www.safetravel.ph/",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/checkpoints-close.jpg"
-  },
-  {
-    "title": "DOH COVID-19 Dashboard",
-    "category": "tracker",
-    "url": "https://ncovtracker.doh.gov.ph/",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/doh_ncov_tracker.png"
-  },
-  {
     "title":"Fundraising Campaign for Health Workers Fighting COVID-19",
     "category": "others",
     "url": "https://www.ticket2me.net/e/5678?",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/fundraising.png"
   },
+
+  {
+    "title": "Metro Manila Checkpoints",
+    "category": "developer",
+    "url": "https://www.safetravel.ph/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/checkpoints-close.jpg"
+  },
+
   {
     "title": "DOH Case Tracker",
     "category": "tracker",
@@ -76,12 +90,7 @@
   },
 
 
-  {
-    "title": "COVID-19 PH Data and Case Tracker",
-    "category": "tracker",
-    "url": "https://covid19ph.com/",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/site_1.png"
-  },
+
   {
     "title": "PH Dashboard",
     "category": "tracker",
