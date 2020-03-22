@@ -1,15 +1,35 @@
 [
+
   {
-    "title": "COVID PH Hotlines",
-    "category": "hotline",
-    "url": "https://sites.google.com/view/covid-19-info-ph/hotlines",
-    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/covid_hotlines.png"
+    "title": "GOV Official COVID Site",
+    "category": "official",
+    "url": "http://www.covid19.gov.ph/",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/officialgovsite.png"
   },
   {
     "title": "DOH COVID-19 Dashboard",
     "category": "tracker",
     "url": "https://ncovtracker.doh.gov.ph/",
     "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/doh_ncov_tracker.png"
+  },
+  {
+    "title": "COVID PH Hotlines",
+    "category": "hotline",
+    "url": "https://sites.google.com/view/covid-19-info-ph/hotlines",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/covid_hotlines.png"
+  },
+
+  {
+    "title": "DOTR Hospital Shuttle Route Map",
+    "category": "map",
+    "url": "https://bit.ly/3amtCQY",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/dotr-hospital-shuttle-map.png"
+  },
+  {
+    "title": "COVID 19 Food Drive",
+    "category": "donation",
+    "url": "https://www.facebook.com/covid19fooddriveph",
+    "image": "https://raw.githubusercontent.com/kimerran/covid19ph.net/master/public/assets/covid19fooddrive.jpg"
   },
   {
     "title": "COVID-19 PH Data and Case Tracker",
